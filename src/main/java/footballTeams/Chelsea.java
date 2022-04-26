@@ -11,4 +11,8 @@ public class Chelsea extends LondonTeams {
         return "Go Team!";
     }
 
+    public String shoutChant(String phrase){
+        return "Let's Go " + phrase;
+    }
+
 }

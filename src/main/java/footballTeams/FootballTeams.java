@@ -1,5 +1,7 @@
 package footballTeams;
 
+import league.League;
+
 public abstract class FootballTeams {
 
 
@@ -10,7 +12,12 @@ public abstract class FootballTeams {
 
         public boolean isTraining;
 
-
+    public FootballTeams(String name, String location, String league, int position){
+        this.name = name;
+        this.location = location;
+        this.league = league;
+        this.position = position;
+    }
     public String getName() {
             return this.name;
         }
@@ -43,12 +50,7 @@ public abstract class FootballTeams {
             this.position = position;
         }
 
-        public FootballTeams(String name, String location, String league, int position){
-        this.name = name;
-        this.location = location;
-        this.league = league;
-        this.position = position;
-    }
+
 
     public boolean isTraining(){
             this.isTraining = true;
@@ -65,9 +67,13 @@ public abstract class FootballTeams {
     }
 
 
-
-
-
-
-
+    public void addFootballTeams(){this.addFootballTeams();}
 }
+
+
+
+
+
+
+
+

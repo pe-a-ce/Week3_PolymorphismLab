@@ -15,9 +15,12 @@ public class ChelseaTest {
     }
 
     @Test
-    void shoutChant(){
+    void shoutChant_NoArgument(){
         assertEquals("Go Team!", chelsea.shoutChant());
     }
+
+    @Test
+    void shoutChant_withArgument(){ assertEquals("Let's Go We Can Win", chelsea.shoutChant("We Can Win"));}
 
     @Test
     void doTheyTrain_true(){

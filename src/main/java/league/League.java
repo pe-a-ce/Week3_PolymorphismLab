@@ -4,7 +4,7 @@ import footballTeams.FootballTeams;
 
 import java.util.ArrayList;
 
-public abstract class League {
+public class League {
 
     private String name;
     public ArrayList<FootballTeams>footballTeams;
@@ -14,7 +14,6 @@ public abstract class League {
         this.name = name;
         this.footballTeams = new ArrayList<>();
     }
-
     public String getName() {
         return name;
     }
@@ -31,10 +30,12 @@ public abstract class League {
         this.footballTeams = footballTeams;
     }
 
+//    this was not working before because we had not declared a method, so the actual value was 0, because it had nothing to do when it called this method in the test.
     public void addFootballTeams(FootballTeams footballTeams){
-
+//        OUR MISSING METHOD.
+//        adding the football teams to the array list
+        this.footballTeams.add(footballTeams);
     }
-
     public int countTeams(){
         return this.footballTeams.size();
     }

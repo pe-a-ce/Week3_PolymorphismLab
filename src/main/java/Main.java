@@ -26,19 +26,19 @@ public class Main {
         |   TopFive (Birdhouse)       |    London Teams (Birds)     |
         * -------------------------- * ---------------------------- *
         |   - Name: String           |   - Name: String             |
-        |   - Location: String       |  - Location: String          |   
+        |   - Location: String       |  - Location: String          |
         |   - League: String         |  -  League: String           |
         |    - Position: int         |  -                           |
-        |     -doTheyTrain()         |                              |
-        * -------------------------- * --------------------------- *
-        |  + Getters/Setters         | + Getters/Setters           |
-        |                            |                             |
-        |   + isTraining             |    +addTeam(Teams)          |
-        |    +isNotTraining          |                             |
-        |    + Shoutchant()          |  + countTeams(): int        |
-        |            String          |                             |
-        |                            |                             |
-        |                            |                             |
+         |     -doTheyTrain()         |                             |
+        * -------------------------- * ---------------------------- *
+        |  + Getters/Setters         | + Getters/Setters            |
+        |                            |                              |
+        |   + isTraining             |    +addTeam(Teams)           |
+        |    +isNotTraining          |                              |
+        |    + Shoutchant()          |  + countTeams(): int         |
+        |            String          |                              |
+        |                            |                              |
+        |                            |                              |
         * --------------------- -----* --------------------------- *
 
 
@@ -48,7 +48,7 @@ Animals - Football Teams
 Birdhouse - TopFive
 Birds - London Teams
 Penguin/Parrot - Arsenal/Chelsea
-Staff/Keeper - Ref?Players?
+Staff/Keeper - Match Ref/ Subs Ref/Linesman
 
  */
 
